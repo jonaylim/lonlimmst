@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Logs / runtime files
+*.log
+*.tmp
+*.pid
+
+# --- Selenium specific ---
+# Browser drivers (don’t bloat repo with executables)
+chromedriver
+geckodriver
+msedgedriver
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+
+# Test artifacts
+screenshots/
+reports/
+*.html
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- System files ---
+.DS_Store
+Thumbs.db
